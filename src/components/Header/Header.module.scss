@@ -1,0 +1,20 @@
+@import "../../SCSS/mixins";
+@import "../../SCSS/variables";
+@import "../../SCSS/responsive";
+
+.header{
+    background-color: $primary-color;
+    margin: 1rem 3rem;
+    padding: 2rem;
+    color: white;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    @include flex(1rem);
+    .icon{
+        font-size: 3rem;
+    }
+    h1{
+        text-align: center;
+    }
+}
+
